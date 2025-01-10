@@ -28,6 +28,10 @@ const transporter = nodemailer.createTransport({
     }
 });
 
+app.get('/', (req, res) => {
+  res.send("Hello from Express!")
+})
+
 // POST endpoint to handle form submission
 app.post('/api/submit', (req, res) => {
     try {

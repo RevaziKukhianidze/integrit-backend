@@ -32,6 +32,8 @@ app.get('/', (req, res) => {
   res.send("Hello from Express!")
 })
 
+console.log('test');
+
 // POST endpoint to handle form submission
 app.post('/api/submit', (req, res) => {
     try {

@@ -1,5 +1,5 @@
 
-FROM node:alpine3.18
+FROM node:18
 
 WORKDIR /app
 
@@ -11,4 +11,4 @@ COPY . .
 
 EXPOSE 3001
 
-CMD ["node", "run", "start"]
+CMD ["node", "server.js"]

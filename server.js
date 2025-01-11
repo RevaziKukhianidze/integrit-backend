@@ -7,6 +7,9 @@ require('dotenv').config();
 const email = process.env.EMAIL;
 const password = process.env.PASSWORD;
 
+console.log('process.env: ', process.env);
+
+
 console.log('email', email, "password", password);
 
 const app = express();

@@ -4,13 +4,6 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 require('dotenv').config(); 
 
-const email = process.env.EMAIL;
-const password = process.env.PASSWORD;
-
-console.log('process.env: ', process.env);
-
-
-console.log('email', email, "password", password);
 
 const app = express();
 const PORT = process.env.PORT || 3001;
